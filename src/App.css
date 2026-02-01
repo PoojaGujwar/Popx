@@ -47,10 +47,11 @@ body{
 }
 .mobile-wrapper{
   width: 400px;
-  height: 720px;
+  height: 620px;
   background-color: #fff;
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.8);
   overflow-y: auto;
+  margin: 10px;
 }

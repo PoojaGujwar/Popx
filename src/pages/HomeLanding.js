@@ -5,7 +5,7 @@ export default function HomeLanding(){
     const navigate = useNavigate()
     return(
         <div className="mobile-wrapper" style={{alignContent:"flex-end"}}>
-            <h1>Welcome to PopX</h1>
+            <h2>Welcome to PopX</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button onClick={()=>navigate("/signup")} className="primary-btn btn">Create Account</button>
             <button onClick={()=>navigate("/login")} className="secondary-btn btn">Already Registered? Login</button>
