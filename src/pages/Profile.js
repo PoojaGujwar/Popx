@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
-import "../styles/Profile.css"
+import { useEffect, useState } from "react"
 
 export default function Profile() {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState("")
   useEffect(() => {
     const storedData = localStorage.getItem("UserData")
     if (storedData) {
@@ -18,16 +17,16 @@ export default function Profile() {
         <div className="profile_box">
           <div className="top_section">
             <div className="avatar_img">
-    
-                <img
-                  src="https://i.pravatar.cc/100"
-                  alt="profile"
-                  className="profile-img"
-                />
-                <input type="file" hidden id="upload" />
-<div className="camera-icon" onClick={()=>document.getElementById("upload").click()}>
-  📷
-</div>
+
+              <img
+                src="https://i.pravatar.cc/100"
+                alt="profile"
+                className="profile-img"
+              />
+              <input type="file" hidden id="upload" />
+              <div className="camera-icon" onClick={() => document.getElementById("upload").click()}>
+                📷
+              </div>
             </div>
             <div>
               <h4>{user.name}</h4>
