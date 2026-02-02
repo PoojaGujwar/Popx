@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/Landing.css"
 
 export default function HomeLanding(){
     const navigate = useNavigate()
