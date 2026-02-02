@@ -3,24 +3,48 @@
     padding: 14px;
     border: none;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 .primary-btn{
     background-color:#6c25ff;
    color: white;
 }
+.primary-btn.active{
+  background-color:#6c25ff;
+}
+
 .secondary-btn{
     background-color: #cebafb;
     color: #1d1d1d;
-
 }
 .input{
  width: 100%;
- padding: 8px;
- margin-top: 16px;
+ padding: 13px;
   border-radius: 6px;
   border: 1px solid #ddd;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: bold;
+}
 
+.form-group{
+  display: flex;
+     position: relative;
+     flex-direction: column;
+  margin-top: 20px;
+  min-height: 100%;
+}
+.form-group label{
+ position: absolute;
+ top: -20px;
+ left: 15px;
+ background: white;
+ padding: 0 6px;
+ font-size: 12px;
+  color: #6c25ff;
+  font-weight: 600;
+display: block;
+ margin-top: 12px;
+  margin-bottom: 4px;
 }

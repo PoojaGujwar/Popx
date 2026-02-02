@@ -7,8 +7,10 @@ export default function HomeLanding(){
         <div className="mobile-wrapper" style={{alignContent:"flex-end"}}>
             <h2>Welcome to PopX</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div style={{marginTop:"20px"}}>
             <button onClick={()=>navigate("/signup")} className="primary-btn btn">Create Account</button>
             <button onClick={()=>navigate("/login")} className="secondary-btn btn">Already Registered? Login</button>
+            </div>
         </div>
     )
 }

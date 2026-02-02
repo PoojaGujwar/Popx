@@ -1,0 +1,59 @@
+
+.title{
+    font-size:18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.profile_box{
+background-color: rgba(211, 211, 211, 0.277);
+border-radius: 10px;
+padding: 16px;
+border: 1px solid #eee;
+height: 80vh;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.avatar_img{
+   position: relative;
+   height: 70px;
+   width: 70px;
+}
+.profile-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.camera-icon{
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background:#6c25ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+}
+.email{
+  font-size: 13px;
+  color: #666;
+}
+
+.bio{
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+  border-top: 1px dashed #ddd;
+  padding-top: 12px;
+}
